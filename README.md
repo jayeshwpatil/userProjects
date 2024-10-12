@@ -1,35 +1,12 @@
-# UserProjects
+Here’s a description for your new Vue project:
 
-This template should help get you started developing with Vue 3 in Vite.
+This Vue.js project showcases a user list and their associated projects using a JSON file as the data source. The interface displays users on the left side, where each user is accompanied by the number of projects they’ve worked on. There’s a search box for quick filtering of users and a sorting feature that allows users to be sorted by name. When a user is selected, their projects are shown on the right side of the application.
 
-## Recommended IDE Setup
+Key features include:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+User list with project count
+Sorting functionality by name
+Search functionality to filter users
+Display of user projects when a name is clicked
+Responsive design for various screen sizes
+Technologies used: Vue 3 Composition API, JavaScript, and Bootstrap.
